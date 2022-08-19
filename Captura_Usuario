@@ -1,0 +1,19 @@
+root@jhon-VivoBook-ASUSLaptop-X515EA-X515EA:/home/jhon/OS_UNAMBA# ps -f
+UID          PID    PPID  C STIME TTY          TIME CMD
+root        4245    4238  0 21:39 pts/3    00:00:00 sudo su
+root        4246    4245  0 21:39 pts/3    00:00:00 su
+root        4247    4246  0 21:39 pts/3    00:00:00 bash
+root        8965    4247  0 22:43 pts/3    00:00:00 ps -f
+root@jhon-VivoBook-ASUSLaptop-X515EA-X515EA:/home/jhon/OS_UNAMBA# ./Process.c
+
+==== ESTE PROGRAMA MUESTRA EL IDENTIFICADOR DE UN PROCESO PADRE ====
+
+Identificador del proceso padre : 4247
+root@jhon-VivoBook-ASUSLaptop-X515EA-X515EA:/home/jhon/OS_UNAMBA# ./Hijo.c
+Soy el padre (8982, padre de 4247)
+Soy el hijo (8983, hijo de 8982)
+root@jhon-VivoBook-ASUSLaptop-X515EA-X515EA:/home/jhon/OS_UNAMBA# ./PPH.c
+
+==== ESTE PROGRAMA MUESTRA EL IDENTIFICADOR DE UN PROCESO PADRE E HIJO====
+
+Identificador del proceso padre : 4247 e hijo: 8990 
